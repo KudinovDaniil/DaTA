@@ -1,0 +1,16 @@
+{
+    "kudinovdaniil114@gmail.com": {
+        "email": "kudinovdaniil114@gmail.com",
+        "password": "123RUS123",
+        "age": 18,
+        "phone": "+7(912)143-24-70",
+        "tariff": "premium"
+    },
+    "AAAAA@gmail.com": {
+        "email": "AAAAA@gmail.com",
+        "password": "12345RTY",
+        "age": 45,
+        "phone": "+7(324)323-66-66",
+        "tariff": "standard"
+    }
+}

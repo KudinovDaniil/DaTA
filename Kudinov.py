@@ -1,8 +1,189 @@
+#import math
+#def sqrt(a):
+#    print(a)
+#print("Hello world!")
+
+#a = 17.5
+#b=(6,1,82,6)
+#print(math.factorial(5))
+
+
+#a = "рпривет земля"
+#print(a[::-1])
+
+
+#a = "hello world"
+#a = "H" + a[1:]
+#b = "l"
+#print(a.isdigit())
+#print(a.isalpha())
+#print(a.replace(b, "", 2))
+#print(a.rfind(b))
+#print(a.islower())
+
+#a = "abc"
+#print(a.rjust(5, "0"))
+
+#a = "   1 2 3 4 5 \t \n"
+#print(",".join(a.split()))
+
+#a = "\thello \nworld"
+#print(a)
+
+#a = [1, 2, 3, 4]
+#a[0] = 10
+#print(a)
+#print((a[0] + a[1] + a[2] + a [3])/len(a))
+
+#a = [1, 2]
+#b = [3, 4, 5]
+#print(a * 5 + b)
+#print(2 in b)
+
+#a = "hi".encode("UTF-8")
+#print(a)
+#print(a.decode("ASCII"))
+
+#a = [1,2,3,4]
+#a.append(5)
+#b = a + [5]
+#print(a)
+
+#a = [1,2,3,4]
+#a.append([6,6,6])
+#b = "gfddf"
+#a.append(b)
+#print(a)
+#print(map(int, a))
+
+#a = [1,2,3,4,3,3]
+#end = a.pop()
+#print(end)
+
+#a = [1,2,3,4,3,3]
+#b = a.count(1616)
+#print(b)
+
+#a = [1,2,3,4,3,3]
+#b = a.index(3,4,6)
+#print(b)
+
+#a = int(input())
+#if a%2==0:
+#    if 0 < a < 9:
+#        print("1")
+#    else:
+#        print("2")
+
+#trok = "HELlo"
+#t = str(input())
+#res = strok.upper() if t == "U" else strok.lower()
+#print(res)
+
+#a = -1
+#b = True
+#while b:
+#    a+=1
+#    if a == 10:
+#        b = False
+#print(a)
+
+#N = 6
+#a = [0] * N
+#for i in range(N):
+#    a[i] = i**2
+#print(a)
+
+#b = [x ** 2 for x in range(N)]
+#print(b)
+
+#a = ["abc","food","cities","mother","cat","dog"]
+#b = [5,96,-16,861,3,16]
+#c = [int(d) for d in range(-5,10) if d % 2 == 0 and d % 3 == 0]
+#d = [i for i in a if len(i) > 3]
+#e = ["Четное" if x % 2 == 0 else "Нечетное" for x in b]
+#print(e)
+
+#a = [(i,j)
+#     for i in range(3)
+#     for j in range(4)
+#     ]
+#b = [f"{i}*{j} = {i*j}"
+#     for i in range(1,11)
+#     for j in range(1,11)
+#c = [x
+#     for i in a
+#     for x in i
+#     ]
+#print(c)
+
+#b = dict(one = 1, two = 2)
+#a = {"house": "дом",
+#     "car": "машино",
+#     "tree": "дерево",
+#     "car": "123"}
+#print(a["car"])
+#print(b)
+
+#c = lambda a, b: a + b
+#rint (c(1,2))
+#stok = [4,5,lambda: print("lambda"), "else"]
+#stok[2]()
+
+#def get_filter(a, filter = None):
+#    if filter is None:
+#        return a
+#    res = []
+#    for x in a:
+#        if filter(x):
+#            res.append(x)
+#    return res
+#lst = [5,3,0,-6,8,10,1]
+#print(get_filter(lst, lambda p: p % 2 == 0))
+
+#a = 5
+#w, h = 100, 100
+#def my_fun(lst):
+#    for x in lst:
+#        n = x + 1
+#        print(n)
+##    print(w,n)
+#    print(a,h)
+#my_fun([1,2,3])
+#print(a)
+
+##import math as mt
+#from math import ceil, pi
+#import pprint
+#pprint.pprint(locals())
+#def ceil(x):
+#    print("Мой ceil")
+#    return x
+#print(ceil(1.8))
+##math = "Математика"
+##print(mt.pi)
+
+#def ceil(x):
+#    print("Мой ceil")
+#    return x
+#from math import ceil as m_ceil, pi
+#from time import *
+#import pprint
+#pprint.pprint(locals())
+#print(time())
+#print(ceil(1.8))
+
+#Name = "my_module"
+#def floor(x):
+#    print("floop is my_model")
+#    return int(x) if x>= 0 else int(x) -
+
+
 import re
 import json
 import os
 
-DATA_FILE = 'C:...\DATA_FILE'
+DATA_FILE = 'users.json'
 
 def load_users():
     if os.path.exists(DATA_FILE):
